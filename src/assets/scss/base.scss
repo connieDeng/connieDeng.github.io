@@ -1,0 +1,24 @@
+@import './variables';
+@import './navigation';
+@import './main';
+@import './home';
+@import './about';
+
+body, html {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    top:0;
+    background-color: #444;
+}
+
+.overlay::before {    
+    z-index: 1;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, transparent 0%, transparent 18%, rgba(0,0,0,0.8) 99%, rgba(0,0,0,0.8) 100%)
+}

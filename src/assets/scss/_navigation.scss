@@ -1,0 +1,122 @@
+.site-navigation {
+    background: #444;
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: $text-color;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+
+    .ion-ios-menu {
+        font-size: 36px;
+        width: 65px;
+        align-items:center;
+        cursor: pointer;
+        display: none; //do not show until screen is the right size
+    }
+
+    .menu-content-container {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+
+        .ant-avatar {
+            background-color: $background;
+            border: 1px solid $border;
+        }
+    }
+
+    .menu-avatar-container {
+        font-weight: 500;
+        font-size: 22px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+
+        .menu-avatar-name {
+            font-size: 18px;
+            margin-left: 15px;
+            text-decoration: 'none';
+            color: $text-color;
+        }
+    }
+
+    ul {
+        height: 100%;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding-inline-start: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style-type: none;
+        margin: 0 20px 0 50px;
+
+        a {
+            text-decoration: none;
+            padding: 0 20px 0 20px;
+            font-size: 20px;
+            color: $text-color;
+
+            &:hover {
+                color: $text-link;
+            }
+        }
+        //padding vs margin
+        //padding: space between and element and the content inside it
+        //margin: space around an element
+    }
+}
+
+//handles the specific screen size to show menu
+//HANDLE CLICKING OFF SCREEN MENU CLOSE; mouse enter/leave event listener on menu container
+@media screen and (max-width: 900px) {
+    .site-navigation {
+        .menu-content-container {
+            width: 300px;
+            height: calc(100% - 65px);
+            background: #444;
+            position: fixed;
+            top: 65px;
+            left: -300px;
+            transition: 300ms ease left;
+            //reverse order of display - icon on top
+            flex-direction: column-reverse;
+
+            ul {
+                flex-direction: column;
+                justify-content: flex-start;
+
+                li {
+                    text-align:left;
+                    height: 65px;
+                    display: flex;
+                    align-items: center;
+                }
+                a {
+                    padding: 20px 15px;
+                    width: 100%;
+                }
+            }
+
+            ul, li {
+                width: 100%;
+            }
+        }
+
+        //.active is equivalent to .menu-content-container.active
+        //meaning both classes (menu-content-container and active)
+        //appending next class
+        &.active {
+            .menu-content-container {
+                left: 0px;
+            }
+        }
+        .ion-ios-menu {
+            display: flex;
+        }
+    }
+}

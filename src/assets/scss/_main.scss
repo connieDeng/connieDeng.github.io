@@ -1,0 +1,30 @@
+.main {
+
+    height:100vh;
+    
+    .category-container{
+        height: 100vh;
+        padding-top: 7vh;
+        scroll-behavior: smooth;
+    }
+    
+    .category-container-about {
+        height: 200vh;
+        padding-top: 7vh;
+        scroll-behavior: smooth;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main {
+        h1 {
+            margin: 5;
+            margin-block-start: 1.5em;
+            margin-block-end: 1.5em;
+        }
+
+        .featured-posts-container {
+            flex-direction: column;
+        }
+    }
+}

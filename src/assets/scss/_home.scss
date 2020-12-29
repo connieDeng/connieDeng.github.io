@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'Dunkin';
+    src: url('./../fonts/Dunkin.ttf');
+}
+
+@font-face {
+    font-family: 'Traffolight';
+    src: url('./../fonts/Traffolight.otf');
+}
+
+@font-face {
+    font-family: 'NeutraText';
+    src: url('./../fonts/NeutraText-Book.otf');
+}
+
+.home-container{
+    top:0;
+    left:0;
+    height:100vh;
+    background-color: #ffffff;
+
+    .main-name {
+        position: absolute;
+        top: 45%;
+        left: 17%;
+        color:black;
+        font-size: 3em;
+        font-weight: bold;
+        font-family: 'NeutraText';
+    }
+
+    .connie-blurb {
+        position: absolute;
+        top: 51%;
+        left: 17%;
+        color:black;
+        font-size: 1em;
+        font-family: 'Arial Narrow';
+    }
+
+    .huge-c-logo {
+        font-size: 30em;
+        background: linear-gradient(350deg, rgba(241,241,241,0) 0%, rgba(218,218,218,0.7931547619047619) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 100;
+        font-family: 'Dunkin';
+        margin: auto;
+        width: 50%;
+        // border: 3px solid green;
+        padding: 10px;
+
+        //following makes it unselectable
+        -webkit-user-select: none; /* Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
+    }    
+
+    .yellow-bg-circle ,
+    .darkblue-bg-circle,
+    .lightblue-bg-circle,
+    .green-bg-circle,
+    .red-bg-circle,
+    .black-bg-circle {
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    will-change: transform;
+    }
+
+    .yellow-bg-circle {
+        background-color: rgba(209, 181, 0, 0.6);
+        min-height: 20vh;
+        min-width: 20vh; 
+        border-radius: 50%;
+        top: 25%;
+        left: 17%;
+    }  
+    
+    .lightblue-bg-circle {
+        background-color: rgba(171, 204, 247, 0.9);
+        min-height: 8vh;
+        min-width: 8vh;
+        border-radius: 50%;
+        top: 65%;
+        left: 40%;
+        z-index: 1;
+    }
+
+    .green-bg-circle {
+        background-color: rgba(112, 247, 92, 0.9);
+        min-height: 2.5vh;
+        min-width: 2.5vh;
+        border-radius: 50%;
+        top: 30%;
+        left: 55%;
+        z-index: 1;
+    }
+
+    .darkblue-bg-circle {
+        background-color: rgba(22, 48, 166, 0.7);
+        min-height: 6.5vh;
+        min-width: 6.5vh; 
+        border-radius: 50%;
+        top: 26%;
+        left: 28%;
+        z-index: 1;
+    }
+
+    .red-bg-circle {
+        background-color: rgba(186, 4, 22, 0.9);
+        min-height: 2vh;
+        min-width: 2vh;
+        border-radius: 50%;
+        top: 58%;
+        left: 50%;
+        z-index: 1;
+    }
+
+    
+    .black-bg-circle {
+        background-color: rgba(29, 6, 56, 0.9);
+        min-height: 1vh;
+        min-width: 1vh;
+        border-radius: 50%;
+        top: 25%;
+        left: 47%;
+        z-index: 1;
+    }
+
+}
