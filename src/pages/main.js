@@ -4,8 +4,9 @@ import { Element } from 'react-scroll'
 
 import Home from './home'
 import About from './about'
+import Projects from './projects'
 
-export default function Main () {
+export default function Main (props) {
     return (
         <main className="main">
             <Navigation/>
@@ -16,13 +17,13 @@ export default function Main () {
                 <About/>
             </Element>
             <Element name="projects" className="category-container">
-                <div className="site-category-title">Projects</div>
+                <Projects/>
             </Element>
             <Element name="blog" className="category-container">
                 <div className="site-category-title">Blog</div>
             </Element>
             <Element name="contact" className="category-container">
-                <div className="site-category-title">Contact</div>
+                <div> CONTACT </div>
             </Element>
         </main>
     )}

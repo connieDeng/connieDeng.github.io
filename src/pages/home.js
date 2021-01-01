@@ -1,5 +1,6 @@
 import React from 'react'
 import { useSpring, animated } from 'react-spring'
+import CustomTerminal from '../components/custom-terminal'
 
 const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2]
 const trans1 = (x, y) => `translate3d(${x / 40}px,${y / 40}px,0)`
@@ -20,10 +21,6 @@ export default function Home () {
                 <animated.div className="red-bg-circle" style={{ transform: props.xy.interpolate(trans2) }} />
                 <animated.div className="black-bg-circle" style={{ transform: props.xy.interpolate(trans2) }} />
             </section>
-            
-
-            <div className='main-name'>Connie Deng</div>
-            <div className='huge-c-logo'>C</div>
-            <div className='connie-blurb'>Student studying Computer Science</div>
+            <CustomTerminal/>
         </main>
     )}

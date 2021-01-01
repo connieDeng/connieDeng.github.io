@@ -1,5 +1,7 @@
+import { LineStyle } from '@material-ui/icons';
 import React, {useState} from 'react'
 import { Link } from 'react-scroll';
+import { Squash as Hamburger } from 'hamburger-react'
 
 const navLinks = [
     {
@@ -31,13 +33,13 @@ export default function Navigation () {
     return (
     //when menu is clicked on hence active
     <nav className={`site-navigation ${menuActive && 'active'}`} role="navigation">
-        <div className="menu-avatar-container">
-          <Link to="home" spy={true} smooth={true} duration={500}>Connie Deng</Link>
+        <div className="your-name">
+          <Link to="home" spy={true} smooth={true} duration={500}>CONNIE DENG</Link>
         </div>
         <div className="menu-content-container">
           <ul>
               { navLinks.map((link, index) => (
-                  <Link to={link.path} spy={true} smooth={true} duration={500}>
+                  <Link className='nav-links' to={link.path} spy={true} smooth={true} duration={500}>
                     {link.title}
                   </Link>
                 ))
@@ -45,10 +47,12 @@ export default function Navigation () {
               </ul>
         </div>
         {/* <i> tage is used to mark up text that is set off from the normal prose in a document */}
-        <i 
-            className="icon ionicons ion-ios-menu"
+        
+        <Hamburger  
+            className="hamburger-menu"
             //clicking activating menu
-            onClick={(ev) => setMenuActive(!menuActive)}
+            //onClick={(ev) => setMenuActive(!menuActive)}
+            toggled={menuActive} toggle={setMenuActive}
         />
     </nav>
   )
