@@ -16,9 +16,9 @@ const style = makeStyles(theme => ({
       flexGrow: 1,
     },
     paper: {
-      padding: theme.spacing(2),
-      textAlign: 'center',
-      color: theme.palette.text.secondary,
+        width: '20px',
+        textAlign: 'center',
+        color: theme.palette.text.secondary,
     },
   }));
 

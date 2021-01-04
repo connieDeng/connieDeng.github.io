@@ -1,25 +1,26 @@
-@font-face {
-    font-family: 'Dunkin';
-    src: url('./../fonts/Dunkin.ttf');
-}
+// @font-face {
+//     font-family: 'Dunkin';
+//     src: url('./../fonts/Dunkin.ttf');
+// }
 
-@font-face {
-    font-family: 'Traffolight';
-    src: url('./../fonts/Traffolight.otf');
-}
+// @font-face {
+//     font-family: 'Traffolight';
+//     src: url('./../fonts/Traffolight.otf');
+// }
 
-@font-face {
-    font-family: 'NeutraText';
-    src: url('./../fonts/NeutraText-Book.otf');
-}
+// @font-face {
+//     font-family: 'NeutraText';
+//     src: url('./../fonts/NeutraText-Book.otf');
+// }
 
 .home-container{
     top:0;
     left:0;
-    height:100vh;
+    height: 100%;
     width: 100%;
-    background-color: #ffffff;
-    
+    overflow-x: hidden !important;
+    background-color: #d8d0cd;
+
     //GOT REPLACED BY TERMINAL
     // .main-name {
     //     position: absolute;
@@ -59,77 +60,114 @@
     //     user-select: none; /* Standard */
     // }    
 
-    .yellow-bg-circle ,
-    .darkblue-bg-circle,
-    .lightblue-bg-circle,
-    .green-bg-circle,
-    .red-bg-circle,
-    .black-bg-circle {
+    .rightSlant ,
+    .upTri,
+    .rightTri,
+    .rightSemiCir,
+    .leftSlant,
+    .leftTri,
+    .downTri,
+    .topSemiCir,
+    .leftSemiCir,
+    .bottomSemiCir {
     position: absolute;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     will-change: transform;
+    overflow-x: hidden;
     }
 
-    .yellow-bg-circle {
-        background-color: rgba(209, 181, 0, 0.6);
-        min-height: 20vh;
-        min-width: 20vh; 
+    .rightSlant {
+        color: #bf5af2;
+        font-size: 2em;     
+        font-weight: bold;  
         border-radius: 50%;
-        top: 25%;
+        top: 10%;
         left: 17%;
         z-index: 1;
     }  
     
-    .lightblue-bg-circle {
-        background-color: rgba(171, 204, 247, 0.9);
-        min-height: 8vh;
-        min-width: 8vh;
+    .upTri {
+        color: #5856d6;
+        font-size: 2em;    
         border-radius: 50%;
-        top: 65%;
-        left: 40%;
+        top: 90%;
+        left: 80%;
         z-index: 1;
     }
 
-    .green-bg-circle {
-        background-color: rgba(112, 247, 92, 0.9);
-        min-height: 2.5vh;
-        min-width: 2.5vh;
+    .rightTri {
+        color: #ff9f0a;
+        font-size: 2em;    
         border-radius: 50%;
-        top: 30%;
-        left: 55%;
+        top: 70%;
+        left: 6%;
         z-index: 1;
     }
 
-    .darkblue-bg-circle {
-        background-color: rgba(22, 48, 166, 0.7);
-        min-height: 6.5vh;
-        min-width: 6.5vh; 
+    .rightSemiCir {
+        color: #64d2ff;
+        font-size: 3em;    
         border-radius: 50%;
-        top: 26%;
-        left: 28%;
+        top: 85%;
+        left: 24%;
         z-index: 1;
     }
 
-    .red-bg-circle {
-        background-color: rgba(186, 4, 22, 0.9);
-        min-height: 2vh;
-        min-width: 2vh;
+    .leftSlant {
+        color: #30d158;
+        font-weight: bold;
+        font-size: 2em;    
         border-radius: 50%;
-        top: 58%;
-        left: 50%;
+        top: 60%;
+        left: 94%;
+        z-index: 1;
+    }
+
+    .leftTri {
+        color: #0a84ff;
+        font-size: 2em;    
+        border-radius: 50%;
+        top: 22%;
+        left: 35%;
+        z-index: 1;
+    }
+
+    .downTri {
+        color: #ff375f;
+        font-size: 2em;    
+        border-radius: 50%;
+        top: 20%;
+        left: 84%;
         z-index: 1;
     }
 
     
-    .black-bg-circle {
-        background-color: rgba(29, 6, 56, 0.9);
-        min-height: 1vh;
-        min-width: 1vh;
+    .topSemiCir {
+        color: #ffd60a;
+        font-size: 3em;    
         border-radius: 50%;
-        top: 25%;
-        left: 47%;
+        top: 10%;
+        left: 95%;
+        z-index: 1;
+    }
+
+    .leftSemiCir {
+        color: #ff2d55;
+        font-size: 3em;    
+        border-radius: 50%;
+        top: 35%;
+        left: 15%;
+        z-index: 1;
+    }
+
+    .bottomSemiCir {
+        color: #af52de;
+        font-size: 2em;    
+        border-radius: 50%;
+        top:80%;
+        left: 67%;
         z-index: 1;
     }
 
