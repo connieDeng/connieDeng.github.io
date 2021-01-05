@@ -1,8 +1,8 @@
 import React, { Component, useState } from "react";
 import Terminal from 'terminal-in-react';
-import TerminalMsg from '../assets/content/custom-terminal/custom-terminal-beg-msg'
-import CustomTerminalCommands from '../assets/content/custom-terminal/custom-terminal-commands'
-import CustomTerminalDescriptions from '../assets/content/custom-terminal/custom-terminal-descriptions'
+import TerminalMsg from '../assets/content/custom-terminal-content/custom-terminal-beg-msg'
+import CustomTerminalCommands from '../assets/content/custom-terminal-content/custom-terminal-commands'
+import CustomTerminalDescriptions from '../assets/content/custom-terminal-content/custom-terminal-descriptions'
 
 import '../assets/scss/_terminal.scss';
 

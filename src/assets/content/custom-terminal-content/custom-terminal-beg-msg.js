@@ -1,3 +1,5 @@
+import Resume from './../../ConnieDengResume.pdf'
+
 const TerminalMsg = '> Connie.origin' + '\n' +
 '"Brooklyn, New York"' + '\n\n' +
 '> Connie.education'  + '\n' +
@@ -7,13 +9,13 @@ const TerminalMsg = '> Connie.origin' + '\n' +
 '> Connie.ExpectedGraduation' + '\n' +
 '"May 2022"' + '\n\n' +
 '> Connie.interests' + '\n' +
-'["Design", "Code", "coffee", "tea", "typography", "music", "bicycles", "brunch"]' + '\n\n' +
+'["Design", "Code", "Coffee AND Tea", "Typography", "Rock climbing", "Bicycles", "Brunch"]' + '\n\n' +
 '> Connie.workExperience.latest' + '\n' +
-'"filler lmao"' + '\n\n' +
-'> Connie.resume' + '\n' +
-'put link to resume here' + '\n\n' +
-'> Connie.blog' + '\n' +
-'put link to blog here' + '\n\n' +
+'Latest Work Experience' + '\n' + 
+'company: "Aetna, a CVS Health company"' + '\n' +
+'position: "Digital Accessability Intern"' + '\n' +
+'startDate: "6/1/2020"' + '\n' +
+'endDate: "7/7/2020"' +'\n\n' +
 '> Connie.email' + '\n' +
 '"dengconnie0723@gmail.com"' + '\n\n' +
 'Type help to see all available commands.'

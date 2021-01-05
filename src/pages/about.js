@@ -4,10 +4,10 @@ import Grid from '@material-ui/core/Grid';
 import { useTheme, makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 
-import AboutFriendsNFamily from '../assets/content/about-friends-n-family.js';
-import AboutWork from '../assets/content/about-work.js';
-import AboutEnjoyment from '../assets/content/about-enjoyment.js';
-import AboutGeneral from '../assets/content/about-general.js'
+// import AboutFriendsNFamily from '../assets/content/about-content/about-friends-n-family.js';
+import AboutWork from '../assets/content/about-content/about-work.js';
+import AboutEnjoyment from '../assets/content/about-content/about-enjoyment.js';
+import AboutGeneral from '../assets/content/about-content/about-general.js'
 //filler image for now
 import ImageIcon from '@material-ui/icons/Image';
 
@@ -52,7 +52,7 @@ export const About = (props) => {
                             {'Family & Friends'}
                         </Typography>
                         <Typography variant="subtitle1" gutterBottom>
-                            {AboutFriendsNFamily}
+                            {/* {AboutFriendsNFamily} */}
                         </Typography>
                     </Grid>
                     <Grid item xs={6}>

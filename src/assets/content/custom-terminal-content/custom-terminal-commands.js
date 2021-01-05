@@ -1,10 +1,11 @@
 const showMsg = () => 'Hellddo World';
+const Resume = './../../ConnieDengResume.pdf'
 
 const directToAbout = () => { };
 
 const customTerminalCommands = {
     showmsg: showMsg,
-    about: directToAbout,
+    'resume': () => window.open({Resume}, '_blank'),
 }
 
 

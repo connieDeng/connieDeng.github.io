@@ -47,13 +47,15 @@ export default function Navigation () {
               </ul>
         </div>
         {/* <i> tage is used to mark up text that is set off from the normal prose in a document */}
-        
-        <Hamburger  
+        <div className='menu-container'>
+        <Hamburger 
+            style={{float:'right'}}
             className="hamburger-menu"
             //clicking activating menu
             //onClick={(ev) => setMenuActive(!menuActive)}
             toggled={menuActive} toggle={setMenuActive}
         />
+        </div>
     </nav>
   )
 }

@@ -17,7 +17,7 @@ export default function Main (props) {
             <Element name="about" className='category-container-about'>
                 <About/>
             </Element>
-            {/* <Element name="projects" className="category-container">
+            <Element name="projects" className="category-container">
                 <Projects/>
             </Element>
             <Element name="blog" className="category-container">
@@ -25,6 +25,6 @@ export default function Main (props) {
             </Element>
             <Element name="contact" className="category-container">
                 <Contact/>
-            </Element> */}
+            </Element>
         </main>
     )}
