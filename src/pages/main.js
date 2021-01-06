@@ -6,25 +6,28 @@ import Home from './home'
 import About from './about'
 import Projects from './projects'
 import Contact from './contact'
+import PDF from './resumePDF'
+import MiniContactBar from '../components/mini-contact-bar'
 
 export default function Main (props) {
     return (
         <main className="main">
             <Navigation/>
+            <MiniContactBar/>
             <Element name="home" className="category-container">
                 <Home/>
             </Element>
-            <Element name="about" className='category-container-about'>
+            <Element name="about" className='category-container'>
                 <About/>
             </Element>
             <Element name="projects" className="category-container">
                 <Projects/>
             </Element>
-            <Element name="blog" className="category-container">
-                <div className="site-category-title">Blog</div>
-            </Element>
             <Element name="contact" className="category-container">
                 <Contact/>
+            </Element>
+            <Element name="PDF" className="category-container">
+                <PDF/>
             </Element>
         </main>
     )}

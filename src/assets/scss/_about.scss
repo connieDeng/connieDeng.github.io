@@ -1,8 +1,18 @@
 .about-container{
-    top:0;
     left:0;
     height: 100%;
     width: 100%;
     overflow-x: hidden !important;
-    background-color: grey;
+    background-color: #282832;
+
+    .newLine{
+        white-space: pre-wrap
+    }
+
+    .about-general-containter{
+        padding: 14vh 30vh 0 30vh;
+        color: #d8d0cd;
+        text-align: center;
+        font-size: 1.5em;
+    }
 }

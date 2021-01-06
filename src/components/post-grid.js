@@ -4,6 +4,12 @@ import React, {useState, useMemo, useEffect} from 'react'
 // import {TagRow} from './'
 import Backdrop from '@material-ui/core/Backdrop';
 import Modal from '@material-ui/core/Modal';
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import Typography from '@material-ui/core/Typography';
+import IDK from '../assets/images/fillerImg.jpg';
 
 export default function PostGrid ({posts}) {
     //only show 9 records at a time
@@ -48,25 +54,29 @@ export default function PostGrid ({posts}) {
         <section className="grid-pagination-container">
             <section className="post-grid container">
                 {paginatedPosts.map((post, index) => (
-                    <div className="post-container" onClick={handleOpen}>
-                        {/* figure around images for accessability reasons*/}
-                        <figure>
- 
-                        </figure>
-                        {/* <TagRow tags={post.categories} /> */}
-                        <h2>{post.title}</h2>
-                        <p className="author-text">
-                            <span>
+                    <Card key={post.id} onClick={handleOpen}>
+                        <CardActionArea>
+                            <CardMedia
+                                style={{height: 400, paddingTop: '0'}}
+                            >
+                                <img src={`../assets/images/${post.image}`} alt="Filler Image"/>\
+                                <img src={IDK}/>
+                            </CardMedia>
+                        <CardContent>
+                            <Typography gutterBottom variant="h5" component="h2">
+                                {post.title}{'\n'}{`../assets/images/${post.image}`}
+                            </Typography>
+                            <Typography variant="body2" color="textSecondary" component="p">
                                 {post.description}
-                            </span>
-                        </p>
-                    </div>
+                            </Typography>
+                        </CardContent>
+                        </CardActionArea>
+                    </Card>
                 ))}
             </section>
             <Modal
                 aria-labelledby="spring-modal-title"
                 aria-describedby="spring-modal-description"
-                // className={classes.modal}
                 open={open}
                 onClose={handleClose}
                 closeAfterTransition

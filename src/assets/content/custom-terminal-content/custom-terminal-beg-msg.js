@@ -1,5 +1,3 @@
-import Resume from './../../ConnieDengResume.pdf'
-
 const TerminalMsg = '> Connie.origin' + '\n' +
 '"Brooklyn, New York"' + '\n\n' +
 '> Connie.education'  + '\n' +

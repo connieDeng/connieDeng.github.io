@@ -39,7 +39,7 @@ export default function Navigation () {
         <div className="menu-content-container">
           <ul>
               { navLinks.map((link, index) => (
-                  <Link className='nav-links' to={link.path} spy={true} smooth={true} duration={500}>
+                  <Link key={index} className='nav-links' to={link.path} spy={true} smooth={true} duration={500}>
                     {link.title}
                   </Link>
                 ))
