@@ -11,7 +11,7 @@ export default function Home () {
 
     return (
         <main className="home-container" onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}>
-            <section class="bg-circle-container">
+            <section className="bg-circle-container">
                 {/* section 1 moves with cursor */}
                 <animated.div className="rightSlant" style={{ transform: props.xy.interpolate(trans1) }}> \ </animated.div>
                 <animated.div className="upTri" style={{ transform: props.xy.interpolate(trans1) }}> △ </animated.div>

@@ -16,5 +16,5 @@ const TerminalMsg = '> Connie.origin' + '\n' +
 'endDate: "7/7/2020"' +'\n\n' +
 '> Connie.email' + '\n' +
 '"dengconnie0723@gmail.com"' + '\n\n' +
-'Type help to see all available commands.'
+'Type help to see all available commands such as "resume, idk etc. WILL FILL MORE COMMANDS L8TER"'
 export default TerminalMsg;

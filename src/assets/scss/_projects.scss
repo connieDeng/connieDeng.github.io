@@ -1,8 +1,11 @@
-.projects-container{
-    top:0;
+.projects-containter {
     left:0;
     height: 100%;
     width: 100%;
     overflow-x: hidden !important;
-    background-color: grey;
+    background-color: gray;
+
+    .projects-grid-container {
+        padding: 10vh 30vh 0 30vh;
+    }
 }

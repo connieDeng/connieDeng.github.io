@@ -1,5 +1,5 @@
 const customTerminalDescriptions = {
-    showmsg: 'shows a message',
+    show: 'displays initial general information',
     resume: 'show resume'
 }
 

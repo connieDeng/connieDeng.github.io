@@ -29,6 +29,11 @@ const navLinks = [
 export default function Navigation () {
   //HOOK changes menu state false and active
     const [menuActive, setMenuActive] = useState(false)
+    const current = window.location.pathname;
+    let navBar;
+    if (current == '/'){
+      navBar = '';
+    }
 
     return (
     //when menu is clicked on hence active

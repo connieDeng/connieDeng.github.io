@@ -20,7 +20,7 @@ export default function Main (props) {
             <Element name="about" className='category-container'>
                 <About/>
             </Element>
-            <Element name="projects" className="category-container">
+            <Element name="projects" className="projects-container">
                 <Projects/>
             </Element>
             <Element name="contact" className="category-container">

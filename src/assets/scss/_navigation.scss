@@ -19,10 +19,11 @@
         font-size: 2em;
     }
 
+    //hamburger icon
     .menu-container {
         position: relative;
-        float: right;
-        right: 2%;
+        float: left;
+        left: 2%;
         top: -35%;
     }    
 
@@ -57,14 +58,13 @@
 //HANDLE CLICKING OFF SCREEN MENU CLOSE; mouse enter/leave event listener on menu container
 .site-navigation {
     .menu-content-container {
-        width: 200px;
-        height: 340px;
+        height: 100vh;
+        width: 300px;
         background: #444;
         position: fixed;
-        top: -340px;
-        left: 89vw;
         transition: 0.4s ease-out;
-        padding-top: 1vh;
+        padding-top: 15%;
+        left: -300px;
 
         ul {
             flex-direction: column;
@@ -94,8 +94,7 @@
     //appending next class
     &.active {
         .menu-content-container {
-            right: 200px;
-            top: 7vh;
+            left: 0px;
         }
     }
 
