@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './src/App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './src/assets/fonts/Dunkin.ttf';
-import './src/assets/fonts/Traffolight.otf';
-import './src/assets/fonts/NeutraText-Book.otf';
-import './src/assets/scss/base.scss';
+import './assets/fonts/Dunkin.ttf';
+import './assets/fonts/Traffolight.otf';
+import './assets/fonts/NeutraText-Book.otf';
+import './assets/scss/base.scss';
 
 ReactDOM.render(
   <React.StrictMode>
