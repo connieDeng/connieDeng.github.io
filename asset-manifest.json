@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/connieDeng.github.io/static/css/main.d488a03a.chunk.css",
-    "main.js": "/connieDeng.github.io/static/js/main.17f68b3d.chunk.js",
-    "main.js.map": "/connieDeng.github.io/static/js/main.17f68b3d.chunk.js.map",
-    "runtime-main.js": "/connieDeng.github.io/static/js/runtime-main.add83213.js",
-    "runtime-main.js.map": "/connieDeng.github.io/static/js/runtime-main.add83213.js.map",
-    "static/js/2.5c7da066.chunk.js": "/connieDeng.github.io/static/js/2.5c7da066.chunk.js",
-    "static/js/2.5c7da066.chunk.js.map": "/connieDeng.github.io/static/js/2.5c7da066.chunk.js.map",
-    "static/js/3.426c9fab.chunk.js": "/connieDeng.github.io/static/js/3.426c9fab.chunk.js",
-    "static/js/3.426c9fab.chunk.js.map": "/connieDeng.github.io/static/js/3.426c9fab.chunk.js.map",
-    "index.html": "/connieDeng.github.io/index.html",
-    "static/css/main.d488a03a.chunk.css.map": "/connieDeng.github.io/static/css/main.d488a03a.chunk.css.map",
-    "static/js/2.5c7da066.chunk.js.LICENSE.txt": "/connieDeng.github.io/static/js/2.5c7da066.chunk.js.LICENSE.txt",
-    "static/media/ConnieDengResume.2fe51079.pdf": "/connieDeng.github.io/static/media/ConnieDengResume.2fe51079.pdf",
-    "static/media/Dunkin.e379eb74.ttf": "/connieDeng.github.io/static/media/Dunkin.e379eb74.ttf",
-    "static/media/base.scss": "/connieDeng.github.io/static/media/Lato-Thin.01923cbb.ttf",
-    "static/media/NeutraText-Book.794f7def.otf": "/connieDeng.github.io/static/media/NeutraText-Book.794f7def.otf",
-    "static/media/Traffolight.5f5ec946.otf": "/connieDeng.github.io/static/media/Traffolight.5f5ec946.otf"
+    "main.css": "/static/css/main.e7428ebe.chunk.css",
+    "main.js": "/static/js/main.17f68b3d.chunk.js",
+    "main.js.map": "/static/js/main.17f68b3d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c66cd8d5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c66cd8d5.js.map",
+    "static/js/2.5c7da066.chunk.js": "/static/js/2.5c7da066.chunk.js",
+    "static/js/2.5c7da066.chunk.js.map": "/static/js/2.5c7da066.chunk.js.map",
+    "static/js/3.426c9fab.chunk.js": "/static/js/3.426c9fab.chunk.js",
+    "static/js/3.426c9fab.chunk.js.map": "/static/js/3.426c9fab.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e7428ebe.chunk.css.map": "/static/css/main.e7428ebe.chunk.css.map",
+    "static/js/2.5c7da066.chunk.js.LICENSE.txt": "/static/js/2.5c7da066.chunk.js.LICENSE.txt",
+    "static/media/ConnieDengResume.2fe51079.pdf": "/static/media/ConnieDengResume.2fe51079.pdf",
+    "static/media/Dunkin.e379eb74.ttf": "/static/media/Dunkin.e379eb74.ttf",
+    "static/media/base.scss": "/static/media/Lato-Thin.01923cbb.ttf",
+    "static/media/NeutraText-Book.794f7def.otf": "/static/media/NeutraText-Book.794f7def.otf",
+    "static/media/Traffolight.5f5ec946.otf": "/static/media/Traffolight.5f5ec946.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.add83213.js",
+    "static/js/runtime-main.c66cd8d5.js",
     "static/js/2.5c7da066.chunk.js",
-    "static/css/main.d488a03a.chunk.css",
+    "static/css/main.e7428ebe.chunk.css",
     "static/js/main.17f68b3d.chunk.js"
   ]
 }
