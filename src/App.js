@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {HashRouter as Router, Switch, Route} from 'react-router-dom'
 import Main from './pages/main'
 import Navigation from './components/navigation'
 import DataVisCOVIDUnemployment from './pages/project-info-pages/DataVisCOVIDUnemployment'
